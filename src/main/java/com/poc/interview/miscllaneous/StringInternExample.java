@@ -7,5 +7,11 @@ public class StringInternExample {
 
         System.out.println(str1 == str2.intern());
         System.out.println("Golu".intern());
+
+
+        String str3 = "test";
+        String str4 = "Test".toLowerCase();
+
+        System.out.println(str3 == str4.intern());
     }
 }
