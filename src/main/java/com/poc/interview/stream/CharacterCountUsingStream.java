@@ -1,4 +1,4 @@
-package com.poc.interview.miscllaneous;
+package com.poc.interview.stream;
 
 import java.util.Arrays;
 import java.util.Collections;

@@ -6,6 +6,7 @@ import java.util.List;
 class A {}
 
 class B extends A {}
+
 public class ListRegexGenerics {
     public static void main(String[] args) {
         List<? super A> l1 = new ArrayList<>();
