@@ -8,6 +8,7 @@ public class CloneableSafeSingleton implements Cloneable{
 
     @Override
     protected Object clone() throws CloneNotSupportedException {
-        throw new CloneNotSupportedException();
+        //throw new CloneNotSupportedException();
+        return instance;
     }
 }
